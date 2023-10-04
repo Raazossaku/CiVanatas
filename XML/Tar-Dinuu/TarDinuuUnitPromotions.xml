@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SPIDER_KEEPER</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_KEEPER</Description>
+			<Help>TXT_KEY_PROMOTION_SPIDER_KEEPER</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<HasPostCombatPromotions>true</HasPostCombatPromotions>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SPIDER_KEEPER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SPIDER_RELEASED</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_RELEASED</Description>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RELEASED</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SPIDER_RELEASED</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SPIDER_BITE</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_BITE</Description>
+			<Help>TXT_KEY_PROMOTION_SPIDER_BITE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<EnemyDamageChance>50</EnemyDamageChance>
+			<EnemyDamage>10</EnemyDamage>
+			<PortraitIndex>57</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SPIDER_BITE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<UnitPromotions_PostCombatRandomPromotion>
+		<Row>
+			<PromotionType>PROMOTION_SPIDER_KEEPER</PromotionType>
+			<NewPromotion>PROMOTION_SPIDER_RELEASED</NewPromotion>
+		</Row>
+	</UnitPromotions_PostCombatRandomPromotion>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_KEEPER">
+			<Text>Spider Keeper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_KEEPER_HELP">
+			<Text>Units have a chance to give Spider Bite after attacking enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_RELEASED">
+			<Text>Spider Released</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_RELEASED_HELP">
+			<Text>This should only appear for a fraction of a section in the actual game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_BITE">
+			<Text>Spider Bite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIDER_BITE_HELP">
+			<Text>Units with this promotion have a chance of losing 10 HP when ending their turn in enemy territory. This will last until the unit upgrades to a more advanced unit.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

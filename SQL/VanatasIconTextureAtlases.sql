@@ -1,0 +1,33 @@
+INSERT INTO IconTextureAtlases 
+		(Atlas,									IconSize,	Filename,								IconsPerRow,	IconsPerColumn)
+VALUES
+		('LATHADU_COLOR_ATLAS',					256,		'LathaduColor256.dds',					1, 				1),
+		('LATHADU_COLOR_ATLAS',					128,		'LathaduColor128.dds',					1, 				1),
+		('LATHADU_COLOR_ATLAS',					80,			'LathaduColor80.dds',					1, 				1),
+		('LATHADU_COLOR_ATLAS',					64,			'LathaduColor64.dds',					1, 				1),
+		('LATHADU_COLOR_ATLAS',					45,			'LathaduColor45.dds',					1, 				1),
+		('LATHADU_COLOR_ATLAS',					32,			'LathaduColor32.dds',					1, 				1),
+		('LATHADU_ALPHA_ATLAS',					64,			'LathaduAlpha64.dds',					1, 				1),
+		('LATHADU_ALPHA_ATLAS',					48,			'LathaduAlpha48.dds',					1, 				1),
+		('LATHADU_ALPHA_ATLAS',					32,			'LathaduAlpha32.dds',					1, 				1),
+		('LATHADU_ALPHA_ATLAS',					24,			'LathaduAlpha24.dds',					1, 				1),
+		('BUILDING_COOPERATIVE_ATLAS',			256,		'LathaduBuildingCooperative256.dds',	1, 				1),
+		('BUILDING_COOPERATIVE_ATLAS',			128,		'LathaduBuildingCooperative128.dds',	1, 				1),
+		('BUILDING_COOPERATIVE_ATLAS',			64,			'LathaduBuildingCooperative64.dds',		1, 				1),
+		('BUILDING_COOPERATIVE_ATLAS',			45,			'LathaduBuildingCooperative45.dds',		1, 				1),
+		('UNIT_PARTISAN_ATLAS',					256,		'LathaduUnitPartisan256.dds',			1, 				1),
+		('UNIT_PARTISAN_ATLAS',					128,		'LathaduUnitPartisan128.dds',			1, 				1),
+		('UNIT_PARTISAN_ATLAS',					80,			'LathaduUnitPartisan80.dds',			1, 				1),
+		('UNIT_PARTISAN_ATLAS',					64,			'LathaduUnitPartisan64.dds',			1, 				1),
+		('UNIT_PARTISAN_ATLAS',					45,			'LathaduUnitPartisan45.dds',			1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				256,		'TarDinuuColor256.dds',					1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				128,		'TarDinuuColor128.dds',					1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				80,			'TarDinuuColor80.dds',					1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				64,			'TarDinuuColor64.dds',					1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				45,			'TarDinuuColor45.dds',					1, 				1),
+		('TAR_DINUU_COLOR_ATLAS',				32,			'TarDinuuColor32.dds',					1, 				1),
+		('TAR_DINUU_ALPHA_ATLAS',				64,			'TarDinuuAlpha64.dds',					1, 				1),
+		('TAR_DINUU_ALPHA_ATLAS',				48,			'TarDinuuAlpha48.dds',					1, 				1),
+		('TAR_DINUU_ALPHA_ATLAS',				32,			'TarDinuuAlpha32.dds',					1, 				1),
+		('TAR_DINUU_ALPHA_ATLAS',				24,			'TarDinuuAlpha24.dds',					1, 				1)
+;

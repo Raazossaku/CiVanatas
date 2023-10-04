@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These regions are used only during map generation, for civ and resource placement. -->
+<GameData>
+	<Regions>
+		<Row>
+			<ID>9</ID>
+			<Type>REGION_MARSH</Type>
+			<Description>TXT_KEY_REGION_MARSH</Description>
+		</Row>
+		<Row>
+			<ID>10</ID>
+			<Type>REGION_MOUNTAINS</Type>
+			<Description>TXT_KEY_REGION_MOUNTAINS</Description>
+		</Row>
+	</Regions>
+</GameData>

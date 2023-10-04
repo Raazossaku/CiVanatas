@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="efc0b23d-3c83-4c69-984f-34666ca63aa5" version="1">
+  <Properties>
+    <Name>CiVanatas</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>A Civ 5 mod set in the world of Project Vanatas</Teaser>
+    <Description>A Civ 5 mod set in the world of Project Vanatas.
+
+Thanks to:
+Raazossaku (XML, Lua, Civ Icons)
+Hazala (Leader Icons, Unit Icons, Building Icons)
+ABBA (Civ Design)
+Ren, Abu, Sengi, Gwi (Civ Concepts)
+Timber, jph, TheCommander (Ideas and Feedback)</Description>
+    <Authors>Raazossaku</Authors>
+    <SpecialThanks>Hazala, ABBA</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="293C1EE3-1176-44f6-AC1F-59663826DE74" minversion="0" maxversion="999" />
+    <Dlc id="B685D5DE-7CCA-4e75-81B4-2F60754E6330" minversion="0" maxversion="999" />
+    <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" />
+    <Dlc id="ECF7C605-BA11-4CAC-8D80-D71306AAC471" minversion="0" maxversion="999" />
+    <Dlc id="7459BA32-5764-44ae-8E95-01AD0E0EFD48" minversion="0" maxversion="999" />
+    <Dlc id="112C22B2-5308-42b6-B734-171CCAB3037B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="EEC2321F8917FCA8653D2E1E584AEEF8" import="1">Art/Lathadu/LathaduAlpha24.dds</File>
+    <File md5="B6DA8194972A8376A9A0B19B0938C32D" import="1">Art/Lathadu/LathaduAlpha32.dds</File>
+    <File md5="23DED37A1DE61F4DF85A570326DA2CBD" import="1">Art/Lathadu/LathaduAlpha48.dds</File>
+    <File md5="D2D29EA2422EC4C77185E0108A97EE71" import="1">Art/Lathadu/LathaduAlpha64.dds</File>
+    <File md5="60491F0BA71212ED0F59660756F20347" import="1">Art/Lathadu/LathaduBuildingCooperative128.dds</File>
+    <File md5="7F5C5EC17FD49617DF95617FBA2BA336" import="1">Art/Lathadu/LathaduBuildingCooperative256.dds</File>
+    <File md5="5811F17D1D62A95237180D55631E6488" import="1">Art/Lathadu/LathaduBuildingCooperative45.dds</File>
+    <File md5="AB201CDC2DB97BE2A4025A0DDF2A4A92" import="1">Art/Lathadu/LathaduBuildingCooperative64.dds</File>
+    <File md5="DD7E12879BF05B5BA3AE4FCC5DF28613" import="1">Art/Lathadu/LathaduColor128.dds</File>
+    <File md5="65ABC95ECED8770A8AA427272C8ADF5C" import="1">Art/Lathadu/LathaduColor256.dds</File>
+    <File md5="2815A7D068D36BCB66890F7F2957E64A" import="1">Art/Lathadu/LathaduColor32.dds</File>
+    <File md5="DB832314AA19BBCC914FCEBE5A26E05C" import="1">Art/Lathadu/LathaduColor45.dds</File>
+    <File md5="3BCDADC62B5DD020795543CFBCC3BA91" import="1">Art/Lathadu/LathaduColor64.dds</File>
+    <File md5="DEC10EEF7955970CD80A32973C35F575" import="1">Art/Lathadu/LathaduColor80.dds</File>
+    <File md5="CFFC32AB4E0F1ACB2FF7A04C6F021F2C" import="1">Art/Lathadu/LathaduUnitPartisan128.dds</File>
+    <File md5="1DF8F7E96CB53E82124E405DEF131260" import="1">Art/Lathadu/LathaduUnitPartisan256.dds</File>
+    <File md5="498DE18CD274C5C5995EE50D27EB6709" import="1">Art/Lathadu/LathaduUnitPartisan45.dds</File>
+    <File md5="51840AC6DB695E09BE976CE3FBD5C4F8" import="1">Art/Lathadu/LathaduUnitPartisan64.dds</File>
+    <File md5="27D465FC7D7893399003E30BC5890F55" import="1">Art/Lathadu/LathaduUnitPartisan80.dds</File>
+    <File md5="97A51F9CD406551FD4D6E97E459EA3AE" import="1">Art/TarDinuu/TarDinuuAlpha24.dds</File>
+    <File md5="D4BF87AC6AA09391E1BE3975A6FB1679" import="1">Art/TarDinuu/TarDinuuAlpha32.dds</File>
+    <File md5="26A1E941F849B281984427F901CBD0E4" import="1">Art/TarDinuu/TarDinuuAlpha48.dds</File>
+    <File md5="7EE1B67B878C79F0D4089090F3E943B1" import="1">Art/TarDinuu/TarDinuuAlpha64.dds</File>
+    <File md5="498AE5A0C72CB0F29452273DD9EDBAD6" import="1">Art/TarDinuu/TarDinuuColor128.dds</File>
+    <File md5="710B476B4802F24B2BBA1DED17088D3E" import="1">Art/TarDinuu/TarDinuuColor256.dds</File>
+    <File md5="4BA46CF3D120FEA42AAB5E49C9781E11" import="1">Art/TarDinuu/TarDinuuColor32.dds</File>
+    <File md5="4809033F4B4460F0B6B54EC39F51527E" import="1">Art/TarDinuu/TarDinuuColor45.dds</File>
+    <File md5="85A1C29DF939E1EB2DD7C0045135C2D5" import="1">Art/TarDinuu/TarDinuuColor64.dds</File>
+    <File md5="FFB6BC915622F518E488A47842C88649" import="1">Art/TarDinuu/TarDinuuColor80.dds</File>
+    <File md5="8229FBA7BFE68558F6B5566A057CB7FD" import="1">Lua/AssignStartingPlots.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="EC87154D7C45DF7020A1CDA5E56C174D" import="1">Lua/VanatasCivCode.lua</File>
+    <File md5="68A0B63B6FE631233FC9C484D8DFAD77" import="0">Sound/AmericaAudio2DScripts.xml</File>
+    <File md5="1AC7A38E6421C9017244DAE2B255AC71" import="0">Sound/AztecAudio2DScripts.xml</File>
+    <File md5="7157A2A98E8ED3CCC1F1153E415790EA" import="0">Sound/ChinaAudio2DScripts.xml</File>
+    <File md5="062C4CD89CCADD184DB44E88AB22C517" import="0">Sound/HaradAudio2DScripts.xml</File>
+    <File md5="9F4777F3C76AB9BA23CE59788977B0AD" import="0">SQL/VanatasIconTextureAtlases.sql</File>
+    <File md5="F6CE620D7C466876E777F2D1F1304754" import="0">SQL/VanatasOnly.sql</File>
+    <File md5="8964560B241D3C8616EFD2E930467CA6" import="0">XML/General/VanatasRegions.xml</File>
+    <File md5="11BBCA1D6C77AEFE4600D9A8541E0F7F" import="0">XML/Lathadu/LathaduAudio2DScripts.xml</File>
+    <File md5="B20D217FE1DACC2ED4193A4F8946A947" import="0">XML/Lathadu/LathaduBuildingCooperative.xml</File>
+    <File md5="EB5F04F39F57D641A867122C0C259B42" import="0">XML/Lathadu/LathaduCivilization.sql</File>
+    <File md5="000761BE626B1931390FBE2BEDB9F548" import="0">XML/Lathadu/LathaduLeaderCarmac.sql</File>
+    <File md5="28A9B468D9A7551BC13FE3D22B803950" import="0">XML/Lathadu/LathaduTraitFieldsOfVirtue.xml</File>
+    <File md5="E462E5F3C89D75206476610340B5FA25" import="0">XML/Lathadu/LathaduUnitPromotions.xml</File>
+    <File md5="EEE8FA51F714324BE4425884BEC94039" import="0">XML/Lathadu/LathaduUnitPartisan.xml</File>
+    <File md5="1C47EB86F1C469BE1E3B7FC5CB98EE28" import="0">XML/Mitruhmoer/MitruhmoerHmindunDialog.xml</File>
+    <File md5="3F6253C70ECAA29694CC1D99508B8809" import="0">XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</File>
+    <File md5="6ECA3CE35923225E0B9D46D4F51440E6" import="0">XML/Tar-Dinuu/TarDinuuCivilization.sql</File>
+    <File md5="C8A9E3576BB24F3867BB68E23203510F" import="0">XML/Tar-Dinuu/TarDinuuLeaderFlirI.sql</File>
+    <File md5="852A357A93CC9935226868F1E7E2BC50" import="0">XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</File>
+    <File md5="ECF248B5D988E54D58F23C2DE2166B81" import="0">XML/Tar-Dinuu/TarDinuuTraitPanTiridinianCulture.xml</File>
+    <File md5="959DE21A82EDD5C8F24FA9420689ABB1" import="0">XML/Tar-Dinuu/TarDinuuImprovementRuuhama.xml</File>
+    <File md5="789D6FCA1E5B2E99A0530234DACF5F10" import="0">XML/Tar-Dinuu/TarDinuuUnitSpiderThrower.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/VanatasOnly.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/VanatasIconTextureAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>XML/General/VanatasRegions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduBuildingCooperative.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduUnitPartisan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduUnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduTraitFieldsOfVirtue.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduLeaderCarmac.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduCivilization.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Lathadu/LathaduAudio2DScripts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuImprovementRuuhama.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuUnitSpiderThrower.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuTraitPanTiridinianCulture.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuLeaderFlirI.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuCivilization.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/VanatasCivCode.lua">
+      <Name>VanatasCivCode</Name>
+      <Description>Lua code for Vanatas civilizations</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
