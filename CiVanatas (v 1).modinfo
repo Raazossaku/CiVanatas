@@ -39,10 +39,17 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
   <References />
   <Blocks />
   <Files>
-    <File md5="EEC2321F8917FCA8653D2E1E584AEEF8" import="1">Art/Lathadu/LathaduAlpha24.dds</File>
-    <File md5="B6DA8194972A8376A9A0B19B0938C32D" import="1">Art/Lathadu/LathaduAlpha32.dds</File>
-    <File md5="23DED37A1DE61F4DF85A570326DA2CBD" import="1">Art/Lathadu/LathaduAlpha48.dds</File>
-    <File md5="D2D29EA2422EC4C77185E0108A97EE71" import="1">Art/Lathadu/LathaduAlpha64.dds</File>
+    <File md5="36ECD1E413C844A34D7A632EF2419BCD" import="1">Art/Lathadu/LathaduAlpha128.dds</File>
+    <File md5="D6CD2CBD93CFBE9C430B85800A8BF10A" import="1">Art/Lathadu/LathaduAlpha16.dds</File>
+    <File md5="404B99D11D27E8002E7493897E13BF12" import="1">Art/Lathadu/LathaduAlpha214.dds</File>
+    <File md5="A60C679BFE8B0546F6CF1F61A072C671" import="1">Art/Lathadu/LathaduAlpha22.dds</File>
+    <File md5="F5D74412ECC6393C68FABB4CB9CA7A19" import="1">Art/Lathadu/LathaduAlpha24.dds</File>
+    <File md5="09A947245243B32576FC08B1FF425F73" import="1">Art/Lathadu/LathaduAlpha256.dds</File>
+    <File md5="D4D1E0A8317D04D65FFFA8D7E7713BAC" import="1">Art/Lathadu/LathaduAlpha32.dds</File>
+    <File md5="820A47C419025B813897A030B2E36296" import="1">Art/Lathadu/LathaduAlpha45.dds</File>
+    <File md5="1C36912D702CDA691E90B9462747DAFD" import="1">Art/Lathadu/LathaduAlpha48.dds</File>
+    <File md5="B6C358AB90A3EDEAD9B7EFB14032E400" import="1">Art/Lathadu/LathaduAlpha64.dds</File>
+    <File md5="A0ACC4742E2AB1D376A67899FE5F26A3" import="1">Art/Lathadu/LathaduAlpha80.dds</File>
     <File md5="60491F0BA71212ED0F59660756F20347" import="1">Art/Lathadu/LathaduBuildingCooperative128.dds</File>
     <File md5="7F5C5EC17FD49617DF95617FBA2BA336" import="1">Art/Lathadu/LathaduBuildingCooperative256.dds</File>
     <File md5="5811F17D1D62A95237180D55631E6488" import="1">Art/Lathadu/LathaduBuildingCooperative45.dds</File>
@@ -58,10 +65,17 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="498DE18CD274C5C5995EE50D27EB6709" import="1">Art/Lathadu/LathaduUnitPartisan45.dds</File>
     <File md5="51840AC6DB695E09BE976CE3FBD5C4F8" import="1">Art/Lathadu/LathaduUnitPartisan64.dds</File>
     <File md5="27D465FC7D7893399003E30BC5890F55" import="1">Art/Lathadu/LathaduUnitPartisan80.dds</File>
-    <File md5="97A51F9CD406551FD4D6E97E459EA3AE" import="1">Art/TarDinuu/TarDinuuAlpha24.dds</File>
-    <File md5="D4BF87AC6AA09391E1BE3975A6FB1679" import="1">Art/TarDinuu/TarDinuuAlpha32.dds</File>
-    <File md5="26A1E941F849B281984427F901CBD0E4" import="1">Art/TarDinuu/TarDinuuAlpha48.dds</File>
-    <File md5="7EE1B67B878C79F0D4089090F3E943B1" import="1">Art/TarDinuu/TarDinuuAlpha64.dds</File>
+    <File md5="2D9A8A586957866C702A2DFB07F5F93A" import="1">Art/TarDinuu/TarDinuuAlpha128.dds</File>
+    <File md5="207C27B2A486773A385A29104CF785F5" import="1">Art/TarDinuu/TarDinuuAlpha16.dds</File>
+    <File md5="FD0A0681DEF174727DE46818212C3F5D" import="1">Art/TarDinuu/TarDinuuAlpha214.dds</File>
+    <File md5="9CCC05A8D54C031E4B79ED247E685492" import="1">Art/TarDinuu/TarDinuuAlpha22.dds</File>
+    <File md5="161D858723A9609E0EDCB5477E071353" import="1">Art/TarDinuu/TarDinuuAlpha24.dds</File>
+    <File md5="24EB1C6FFA2D54D0C4CF56437906C66B" import="1">Art/TarDinuu/TarDinuuAlpha256.dds</File>
+    <File md5="67193053D46630A10C668748532631E4" import="1">Art/TarDinuu/TarDinuuAlpha32.dds</File>
+    <File md5="94F67CEDD0FA504662B3D1AF76DC7CB0" import="1">Art/TarDinuu/TarDinuuAlpha45.dds</File>
+    <File md5="8FD6740B21FFDDEED58A8C7245F1B949" import="1">Art/TarDinuu/TarDinuuAlpha48.dds</File>
+    <File md5="BB3510CB8E8EA2B48DB20CB0372EF1BE" import="1">Art/TarDinuu/TarDinuuAlpha64.dds</File>
+    <File md5="E18882CC7418B7348D14D0B3B32C3ACF" import="1">Art/TarDinuu/TarDinuuAlpha80.dds</File>
     <File md5="498AE5A0C72CB0F29452273DD9EDBAD6" import="1">Art/TarDinuu/TarDinuuColor128.dds</File>
     <File md5="710B476B4802F24B2BBA1DED17088D3E" import="1">Art/TarDinuu/TarDinuuColor256.dds</File>
     <File md5="4BA46CF3D120FEA42AAB5E49C9781E11" import="1">Art/TarDinuu/TarDinuuColor32.dds</File>
@@ -75,7 +89,7 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="1AC7A38E6421C9017244DAE2B255AC71" import="0">Sound/AztecAudio2DScripts.xml</File>
     <File md5="7157A2A98E8ED3CCC1F1153E415790EA" import="0">Sound/ChinaAudio2DScripts.xml</File>
     <File md5="062C4CD89CCADD184DB44E88AB22C517" import="0">Sound/HaradAudio2DScripts.xml</File>
-    <File md5="9F4777F3C76AB9BA23CE59788977B0AD" import="0">SQL/VanatasIconTextureAtlases.sql</File>
+    <File md5="382AE65301D9081591A801D10398CE62" import="0">SQL/VanatasIconTextureAtlases.sql</File>
     <File md5="F6CE620D7C466876E777F2D1F1304754" import="0">SQL/VanatasOnly.sql</File>
     <File md5="8964560B241D3C8616EFD2E930467CA6" import="0">XML/General/VanatasRegions.xml</File>
     <File md5="11BBCA1D6C77AEFE4600D9A8541E0F7F" import="0">XML/Lathadu/LathaduAudio2DScripts.xml</File>
