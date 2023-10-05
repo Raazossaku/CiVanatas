@@ -84,7 +84,7 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="FFB6BC915622F518E488A47842C88649" import="1">Art/TarDinuu/TarDinuuColor80.dds</File>
     <File md5="8229FBA7BFE68558F6B5566A057CB7FD" import="1">Lua/AssignStartingPlots.lua</File>
     <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
-    <File md5="EC87154D7C45DF7020A1CDA5E56C174D" import="1">Lua/VanatasCivCode.lua</File>
+    <File md5="B594434A8572FBC7FC93C93A651E523A" import="0">Lua/VanatasCivCode.lua</File>
     <File md5="68A0B63B6FE631233FC9C484D8DFAD77" import="0">Sound/AmericaAudio2DScripts.xml</File>
     <File md5="1AC7A38E6421C9017244DAE2B255AC71" import="0">Sound/AztecAudio2DScripts.xml</File>
     <File md5="7157A2A98E8ED3CCC1F1153E415790EA" import="0">Sound/ChinaAudio2DScripts.xml</File>
@@ -101,9 +101,9 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="EEE8FA51F714324BE4425884BEC94039" import="0">XML/Lathadu/LathaduUnitPartisan.xml</File>
     <File md5="1C47EB86F1C469BE1E3B7FC5CB98EE28" import="0">XML/Mitruhmoer/MitruhmoerHmindunDialog.xml</File>
     <File md5="3F6253C70ECAA29694CC1D99508B8809" import="0">XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</File>
-    <File md5="6ECA3CE35923225E0B9D46D4F51440E6" import="0">XML/Tar-Dinuu/TarDinuuCivilization.sql</File>
+    <File md5="E7F95375EDD0DE2251F8FA2C179B9D16" import="0">XML/Tar-Dinuu/TarDinuuCivilization.sql</File>
     <File md5="C8A9E3576BB24F3867BB68E23203510F" import="0">XML/Tar-Dinuu/TarDinuuLeaderFlirI.sql</File>
-    <File md5="852A357A93CC9935226868F1E7E2BC50" import="0">XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</File>
+    <File md5="24AC200C5F0CA1566AE82EA119AFBD2E" import="0">XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</File>
     <File md5="ECF248B5D988E54D58F23C2DE2166B81" import="0">XML/Tar-Dinuu/TarDinuuTraitPanTiridinianCulture.xml</File>
     <File md5="959DE21A82EDD5C8F24FA9420689ABB1" import="0">XML/Tar-Dinuu/TarDinuuImprovementRuuhama.xml</File>
     <File md5="789D6FCA1E5B2E99A0530234DACF5F10" import="0">XML/Tar-Dinuu/TarDinuuUnitSpiderThrower.xml</File>

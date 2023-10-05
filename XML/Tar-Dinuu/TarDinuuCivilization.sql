@@ -43,19 +43,21 @@ VALUES
 	('TXT_KEY_CIV_TAR_DINUU_SHORT_DESC',		'Tar-Dinuu'),
 	('TXT_KEY_CIV_TAR_DINUU_ADJECTIVE',			'Tar-Dinuuen'),
 	('TXT_KEY_CIV5_DAWN_TAR_DINUU_TEXT', 
-	'In your name, the workers rise, o Carmac Kneale, leader of this glorious revolution! ' ||
-	'Born into poverty, you mantled the cause of the working man as your own, ' ||
-	'taking your place as the leader of the Peasant and Laborer''s Progressive Party ' ||
-	'in a pledge to forge a nation controlled by the working man. ' ||
-	'A storm brewed in the heart of Alutra, and the days of the Bans were done. ' ||
-	'With the Lathadun Revolution of 1871, the dread Ban Teague was overthrown, ' ||
-	'and the Lathadun Federation was finally undone. With you at the helm of a new, modern republic, ' ||
-	'Lathadu would begin its journey into modernity.' ||
+	'The black star rises for you, eternal Flir of Tar-dinuu, whose will bends even the gods. ' ||
+	'In the realm of squabbling clans and rugged peaks, ' ||
+	'the ancient soul of your people called for a savior, and you provided. ' ||
+	'You brought the gift of bronze to man. You overcame the Eight Deadly Trials ' ||
+	'and freed Tar-dinuu from the petty tyrants that had kept it in chains. ' ||
+	'You united the heavens behind your blade. Many have stood in Tar-dinuu’s path, ' ||
+	'but all have been vanquished. Now, you have become the totality of your people. ' ||
+	'Thousands of mouths call with your voice, thousands of warriors march with your purpose, ' ||
+	'and thousands of hearts beat at your command.' ||
 	'[NEWLINE][NEWLINE]' ||
-	'Dauntless revolutionary, once again the fires of change must be ignited by your hand. ' ||
-	'The will of the working man lies broken beneath the crowns of oligarchs and big-moneyists, ' ||
-	'and it demands your determination to inspire strength. ' ||
-	'Can you bring forth the will of your allies against their slavery? ' ||
+	'Already, your achievements have earned you immortality in the pantheon of history, ' ||
+	'yet still the spirit of Tar-dinuu calls for more. For your soul has a particular destiny, ' ||
+	'one that will outlive your own mortal body. The mountains will contain the Dinuuen people no longer. ' ||
+	'From that alpine stronghold, your veins shall weave a web across the world. ' ||
+	'Will you follow your purpose, and unite the world under one final, eternal empire? ' ||
 	'Can you build a civilization that will stand the test of time?'
 	);
 

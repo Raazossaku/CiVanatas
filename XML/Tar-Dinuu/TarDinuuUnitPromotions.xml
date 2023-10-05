@@ -58,7 +58,7 @@
 			<Text>Spider Released</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPIDER_RELEASED_HELP">
-			<Text>This should only appear for a fraction of a section in the actual game.</Text>
+			<Text>Some of your spiders are missing! Try looking for them by gently saying "hello" to some strangers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPIDER_BITE">
 			<Text>Spider Bite</Text>

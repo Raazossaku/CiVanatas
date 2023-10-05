@@ -1,3 +1,5 @@
+include("PlotIterators.lua")
+
 local tTraitLeaders = {}
 for row in DB.Query("SELECT a.TraitType TraitType, b.ID iLeader FROM Leader_Traits a, Leaders b WHERE a.LeaderType = b.Type") do
     if not tTraitLeaders[row.TraitType] then
@@ -144,8 +146,6 @@ function Ability_PanTiridinianCulture(iOldPlayer, bIsCapital, iX, iY, iNewPlayer
 end
 GameEvents.CityCaptureComplete.Add(Ability_PanTiridinianCulture);
 
-include("PlotIterators.lua")
-
 local iBasePromotion = GameInfoTypes["PROMOTION_SPIDER_KEEPER"]
 local iDerivedPromotion = GameInfoTypes["PROMOTION_SPIDER_RELEASED"]
 local iPoisonPromotion = GameInfoTypes["PROMOTION_SPIDER_BITE"]
@@ -155,19 +155,27 @@ function Ability_DinueenSpiderThrower(playerID, unitID, newDamage, oldDamage)
 		local pPlayer = Players[playerID]
 		local pUnit = pPlayer:GetUnitByID(unitID)
 		if pUnit then
+			print(pPlayer:GetCivilizationAdjective() .. " " .. pUnit:GetName() .. " took damage")
 			if pUnit:IsHasPromotion(iDerivedPromotion) then
+				--print("Defending " .. pPlayer:GetCivilizationAdjective() .. " " .. pUnit:GetName() .. " had ".. iDerivedPromotion)
 				pUnit:SetHasPromotion(iDerivedPromotion, false)
 				pUnit:SetHasPromotion(iBasePromotion, true)
+				--print("Defending " .. pPlayer:GetCivilizationAdjective() .. " " .. pUnit:GetName() .. " now has ".. iBasePromotion)
+				return
 			end
-			for pPlot in PlotAreaSpiralIterator(pUnit:GetPlot(), 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
+			for pPlot in PlotAreaSpiralIterator(pUnit:GetPlot(), 4, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				if pPlot then
 					for i = 0, pPlot:GetNumUnits()-1 do 
 						local pFoundUnit = pPlot:GetUnit(i)
 						if pFoundUnit and pFoundUnit ~= pUnit then
+							--print("Found a " .. Players[pFoundUnit:GetOwner()]:GetCivilizationAdjective() .. " " .. pFoundUnit:GetName())
 							if pFoundUnit:IsHasPromotion(iDerivedPromotion) then
+								--print("Attacking " .. Players[pFoundUnit:GetOwner()]:GetCivilizationAdjective() .. " " .. pFoundUnit:GetName() .. " had ".. iDerivedPromotion)
 								pUnit:SetHasPromotion(iPoisonPromotion, true)
+								--print("Defending " .. pPlayer:GetCivilizationAdjective() .. " " .. pUnit:GetName() .. " now has ".. iPoisonPromotion)
 								pFoundUnit:SetHasPromotion(iDerivedPromotion, false)
 								pFoundUnit:SetHasPromotion(iBasePromotion, true)
+								--print("Attacking " .. Players[pFoundUnit:GetOwner()]:GetCivilizationAdjective() .. " " .. pFoundUnit:GetName() .. " now has ".. iBasePromotion)
 								return
 							end
 						end
@@ -178,7 +186,7 @@ function Ability_DinueenSpiderThrower(playerID, unitID, newDamage, oldDamage)
 	end
 end
 
-Events.SerialEventUnitSetDamage(Ability_DinueenSpiderThrower)
+Events.SerialEventUnitSetDamage.Add(Ability_DinueenSpiderThrower)
 
 
 --[[
