@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_WEALTH_OF_THE_LAIGOKSEDE</Type>
+			<Description>TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+
+	<!-- Trait_ExtraYieldThresholds -->
+	<!-- Trait_YieldChanges -->
+	<!-- Trait_YieldChangesStrategicResources -->
+	<!-- Trait_YieldChangesNaturalWonder -->
+	<!-- Trait_YieldChangesPerTradePartner -->
+	<!-- Trait_YieldChangesIncomingTradeRoute -->
+	<!-- Trait_YieldModifiers -->
+	<!-- Trait_FreePromotions -->
+
+	<!-- Trait_FreePromotionUnitCombats -->
+	<!-- Trait_FreePromotionUnitCombats -->
+	<!-- Trait_MovesChangeUnitCombats -->
+	<!-- Trait_MaintenanceModifierUnitCombats -->
+	<!-- Trait_Terrains -->
+	<!-- Trait_ResourceQuantityModifiers -->
+	<!-- Trait_FreeResourceFirstXCities -->
+	<!-- Trait_ImprovementYieldChanges -->
+	<!-- Trait_SpecialistYieldChanges -->
+	<!-- Trait_UnimprovedFeatureYieldChanges -->
+	<!-- Trait_NoTrain -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE">
+			<Text>A [ICON_CULTURE] Culture boost is granted after conquering a city based on its [ICON_CITIZEN] Population. After conquering a civ's [ICON_CAPITAL] Capital, there is a chance to gain a free [ICON_RESEARCH] Tech depending on far ahead that civ is on the Tech Tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE_SHORT">
+			<Text>Pan-Tiridinian Culture</Text>
+		</Row>
+	</Language_en_US>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_WEALTH_OF_THE_LAIGOKSEDE</Type>
+			<Description>TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE</Description>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<NeverCapture>1</NeverCapture>
+			<NukeImmune>-1</NukeImmune>
+			<BuildingClass>BUILDINGCLASS_WEALTH_OF_THE_LAIGOKSEDE</BuildingClass>
+			<PrereqTech></PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+		</Row>
+	</Buildings>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_WEALTH_OF_THE_LAIGOKSEDE</Type>
+			<Description>TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE</Description>
+			<DefaultBuilding>BUILDING_WEALTH_OF_THE_LAIGOKSEDE</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WEALTH_OF_THE_LAIGOKSEDE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEALTH_OF_THE_LAIGOKSEDE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WEALTH_OF_THE_LAIGOKSEDE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>

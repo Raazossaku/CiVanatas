@@ -187,7 +187,7 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TAR_DINUUEN_SPIDER_THROWER_STRATEGY">
-			<Text>The Spider Thrower is Tar-Dinuu's unique unit, replacing the Archer. Spider Throwers are available after researching Pottery instead of Archery. After attacking an enemy, it has a chance to inflict Spider Bite on them, which has a chance of causing them to lose 10 HP each turn while in their enemy's territory.</Text>
+			<Text>The Spider Thrower is Tar-Dinuu's unique unit, replacing the Archer. Spider Throwers are available after researching Pottery instead of Archery. After attacking an enemy, it has a chance to inflict Spider Bite on them, which has a chance of causing them to lose 15 HP each turn while in their enemy's territory and 5 HP while in neutral territory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TAR_DINUUEN_SPIDER_THROWER">
 			<Text>Only the Tar-Dinuuens may build this unit. It replaces the Archer, but requires Pottery instead of Archery, and can poison enemy units.</Text>

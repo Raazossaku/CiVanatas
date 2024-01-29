@@ -8,6 +8,9 @@ for row in DB.Query("SELECT a.TraitType TraitType, b.ID iLeader FROM Leader_Trai
     
     tTraitLeaders[row.TraitType][row.iLeader] = true
 end
+local iFood = YieldTypes["YIELD_FOOD"]
+local iGold = YieldTypes["YIELD_GOLD"]
+local iProduction = YieldTypes["YIELD_PRODUCTION"]
 
 --print("Shield of the Worker script start");
 local pShieldOfTheWorker = GameInfoTypes["PROMOTION_SHIELD_OF_THE_WORKER"];
@@ -75,7 +78,7 @@ function Building_Cooperative(iPlayer)
 	if not pPlayer:IsAlive() then return; end
 	for pCity in pPlayer:Cities() do
 		if pCity:IsHasBuilding(pCooperative) then
-			local iYield = math.floor(pCity:GetYieldRate(YieldTypes.YIELD_PRODUCTION)/10 + 0.5);
+			local iYield = math.floor(pCity:GetYieldRate(iProduction)/10 + 0.5);
 			local iRandom = Game.Rand(4);
 			local iX = pCity:GetX()
 			local iY = pCity:GetY()
@@ -111,7 +114,7 @@ function Building_Cooperative(iPlayer)
 end
 GameEvents.PlayerDoTurn.Add(Building_Cooperative);
 
-local sPanTiridinianCulture = "TRAIT_PAN_TIRIDINIAN_CULTURE"
+local pPanTiridinianCulture = tTraitLeaders["TRAIT_PAN_TIRIDINIAN_CULTURE"]
 function Ability_PanTiridinianCulture(iOldPlayer, bIsCapital, iX, iY, iNewPlayer, iPop, bConquest)
 	if bConquest then
 		local pNewOwner = Players[iNewPlayer]
@@ -119,7 +122,7 @@ function Ability_PanTiridinianCulture(iOldPlayer, bIsCapital, iX, iY, iNewPlayer
 		local sTitle = "Conquest Happened!";
 		local sText = "Conquest Happened!";
 		pNewOwner:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, sText, sTitle, iX, iY);
-		if tTraitLeaders[sPanTiridinianCulture] and tTraitLeaders[sPanTiridinianCulture][iNewLeader] then
+		if pPanTiridinianCulture and pPanTiridinianCulture[iNewLeader] then
 			pNewOwner:ChangeJONSCulture(pNewOwner:GetTotalJONSCulturePerTurn() * iPop);
 			local sTitle = "Pan Tiridinian Culture Strikes!";
 			local sText = "Pan Tiridinian Culture Strikes for " .. pNewOwner:GetTotalJONSCulturePerTurn() * iPop .. "Culture!";
@@ -189,82 +192,36 @@ end
 Events.SerialEventUnitSetDamage.Add(Ability_DinueenSpiderThrower)
 
 
---[[
--- MAKE THEM UNIQUE!
--- These Promotions can have whatever effects applied that you desire, but keep in mind that your equivalent to PROMOTION_DERIVED will only be applied to a Unit during the combat process and shouldn't linger on a Unit after that point unless you intentionally design your effect to be single-use like the original Mystic Blade.
-INSERT INTO UnitPromotions
-		(Type,							Description,					Help,								Sound,					CannotBeChosen, LostWithUpgrade,	HasPostCombatPromotions,    PortraitIndex,   		IconAtlas,			PediaType,          PediaEntry)
-VALUES    ('PROMOTION_BASE',			'TXT_KEY_PROMOTION_BASE',		'TXT_KEY_PROMOTION_BASE_HELP',		'AS2D_IF_LEVELUP',		1,				1,					1,							59,						'ABILITY_ATLAS',    'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_BASE'),
-		  ('PROMOTION_DERIVED',			'TXT_KEY_PROMOTION_DERIVED',	'TXT_KEY_PROMOTION_DERIVED_HELP',	'AS2D_IF_LEVELUP',		1,				1,					NULL,						59,						'ABILITY_ATLAS',    'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_DERIVED');
-
-
-
--- Combat Listener Example Lua
--- Despite being an Event, Events.SerialEventUnitSetDamage does in fact get called while in Strategic View and out of human vision. Unfortunately, this is about the only good thing the event has going for it.
-include("PlotIterators.lua")
-
-local iBasePromotion = GameInfoTypes["PROMOTION_BASE"]
-local iDerivedPromotion = GameInfoTypes["PROMOTION_DERIVED"]
-
--- Performs an effect whenever a Unit marked by a specified PostCombatRandomPromotion takes damage, meaning they took said damage from participating in a combat scenario, and either survives or was attacked by the human player.
-function C15_UnitSetDamage_Basic(playerID, unitID, newDamage, oldDamage)
-	if newDamage > oldDamage then
+local pCargoShip = GameInfoTypes["UNIT_CARGO_SHIP"]
+local pArubeanCorsaire = GameInfoTypes["UNIT_ARUBEAN_CORSAIRE"]
+--credit to TarcisioCM's Wilhelm II mod for Arubean Corsaire's ability
+function Ability_ArubeanCorsaire(playerID, unitID)
+    local pPlayer = Players[playerID];
+	if not pPlayer:IsAlive() then return; end
 	local pUnit = pPlayer:GetUnitByID(unitID)
-	if pUnit then
-		if pUnit:IsHasPromotion(iDerivedPromotion) then
-			-- Unit has survived combat! Do effect! Who's the other participant in the combat? We don't know! This method just identifies that our PostCombat-marked unit has taken damage from a combat, and can't tell us much specific information about the combat.
-			
-			pUnit:SetHasPromotion(iDerivedPromotion, false)
-			pUnit:SetHasPromotion(iBasePromotion, true)
+	if pUnit:GetUnitType() == pCargoShip then	
+		local pPlot = pUnit:GetPlot()
+		local pEnemyUnit = pPlot:GetUnit()
+		local pEnemyPlayer = Players[pEnemyUnit:GetOwner()]
+		if pEnemyUnit:GetUnitType() == pArubeanCorsaire then
+			pEnemyUnit:ChangeExperience(15)
+			pEnemyPlayer:ChangeGold(pEnemyUnit:GetTradeGold(pPlot))
 		end
 	end
 end
+GameEvents.CanSaveUnit.Add(Ability_ArubeanCorsaire)
 
-Events.SerialEventUnitSetDamage.Add(C15_UnitSetDamage_Basic)
-
--- Performs an effect whenever a Unit marked by a specified PostCombatRandomPromotion is found to have attacked the unit which has taken damage, so long as the unit which is taking damage survives said damage OR the player who is attacking is the human player.
-function C15_UnitSetDamage_Full(playerID, unitID, newDamage, oldDamage)
-	if newDamage > oldDamage then
-		local pPlayer = Players[playerID]
-		local pUnit = pPlayer:GetUnitByID(unitID)
-		if pUnit then -- The Defender gets called first, then the Attacker. If the Attacker is the human player (tested with Player 0), then the Defender should always exist even if it is killed (and Unit.IsDead will tell you whether it is alive or not); conversely, if the Attacker is not a human player then the Defender will NOT exist if it is killed. This means that your effects may behave differently for the AI, and essentially calls the usefulness of this utility into question. Yay.
-			if pUnit:IsHasPromotion(iDerivedPromotion) then
-				-- Reset the PostCombatRandomPromotion to its Parent Promotion so that cases where the Defender didn't exist (either cus they died or are actually a city) don't break the PostCombatRandomPromotion cycle. 
-				-- Resetting the promotions while the PostCombatRandomPromotion Unit is the Defender will cause them to not be detected by the Attacker's iteration, thus limiting your effect to only trigger if the PostCombatRandomPromotion Unit is attacking unless you code an effect here too.
-				-- The Resetting of these Promotions here will also avoid duplicated effects if you were to code one here to apply when the PostCombatRandomPromotion Unit is the Defender and another in the iteration for when the PostCombatRandomPromotion Unit is the Attacker.
-				-- If you want to try and get data about the other unit in the combat, you will need to save your effect for the iteration section; thus, an effect which occurs while defending can only take data from the PostCombatRandomPromotion Unit.
-				
-				pUnit:SetHasPromotion(iDerivedPromotion, false)
-				pUnit:SetHasPromotion(iBasePromotion, true)
-			end
-			
-			-- Iterate whatever range you would expect to have to iterate in order to find your attacking unit, bearing in mind that Ranged Units can have an indeterminate number of +Range promotions.
-			for pPlot in PlotAreaSpiralIterator(pUnit:GetPlot(), 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				if pPlot then
-					for i = 0, pPlot:GetNumUnits()-1 do 
-						local pFoundUnit = pPlot:GetUnit(i)
-						if pFoundUnit and pFoundUnit ~= pUnit then
-							if pFoundUnit:IsHasPromotion(iDerivedPromotion) then
-								-- The attacking unit has been found! Perform effect!
-								
-								-- Reset Attacker's marker
-								pFoundUnit:SetHasPromotion(iDerivedPromotion, false)
-								pFoundUnit:SetHasPromotion(iBasePromotion, true)
-								
-								-- Attacker found, no more iteration needed
-								return
-							end
-						end
-					end
-				end
-			end
+local pWealthOfTheLaigoksede = tTraitLeaders["TRAIT_WEALTH_OF_THE_LAIGOKSEDE"]
+local pBuildingWealthOfTheLaigoksede = GameInfoTypes["BUILDING_WEALTH_OF_THE_LAIGOKSEDE"]
+function Ability_WealthOfTheLaigoksede(iPlayer, iX, iY)
+	local pOwner = Players[iPlayer]
+	local iLeader = pOwner:GetLeaderType()
+	if pWealthOfTheLaigoksede and pWealthOfTheLaigoksede[iLeader] then
+		local pPlot = Map.GetPlot(iX, iY)
+		if pPlot:IsRiver() then
+			local pCity = pPlot:GetPlotCity()
+			pCity:SetNumRealBuilding(pBuildingWealthOfTheLaigoksede, 1)
 		end
 	end
 end
-
-Events.SerialEventUnitSetDamage.Add(C15_UnitSetDamage_Full)
-
--- You only want to use one of these functions, obviously.
--- So to conclude, the Basic Combat Listener works great when you want to do something to a Unit after it partakes in a melee combat, but doesn't allow you to get information about the other combat participant and won't always work when the Unit in question dies as a result of the combat. The Full Combat Listener affords a way to identify the two Units involved in a combat at any range, but this method of identification becomes significantly more processing-intensive the more range you have to account for and has issues with detecting combats involving cities and combat scenarios where only one unit survives.
--- If you are looking for a more reliable combat event, you will have to investigate the GameEvents added by DLL mods such as Various Mod Components and the Community Patch.
-]]--
+GameEvents.PlayerCityFounded.Add(Ability_WealthOfTheLaigoksede);

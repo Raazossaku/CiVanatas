@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_ARUBEAN_CORSAIRE</Type>
+			<Description>TXT_KEY_UNIT_ARUBEAN_CORSAIRE</Description>
+			<Civilopedia>TXT_KEY_CIV5_ARUBEAN_CORSAIRE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ARUBEAN_CORSAIRE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ARUBEAN_CORSAIRE</Help>
+			<Requirements></Requirements>
+			<Combat>25</Combat>
+			<RangedCombat>0</RangedCombat>
+			<Cost>150</Cost>
+			<FaithCost>0</FaithCost>
+			<RequiresFaithPurchaseEnabled>0</RequiresFaithPurchaseEnabled>
+			<PurchaseOnly>0</PurchaseOnly>
+			<MoveAfterPurchase>0</MoveAfterPurchase>
+			<Moves>6</Moves>
+			<Immobile>0</Immobile>
+			<Range>0</Range>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_PRIVATEER</Class>
+			<Special></Special>
+			<Capture></Capture>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<CivilianAttackPriority></CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_PIRATE_SEA</DefaultUnitAI>
+			<Food>0</Food>
+			<NoBadGoodies>0</NoBadGoodies>
+			<RivalTerritory>0</RivalTerritory>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<PillagePrereqTech></PillagePrereqTech>
+			<Found>0</Found>
+			<FoundAbroad>0</FoundAbroad>
+			<CultureBombRadius>0</CultureBombRadius>
+			<GoldenAgeTurns>0</GoldenAgeTurns>
+			<FreePolicies>0</FreePolicies>
+			<OneShotTourism>0</OneShotTourism>
+			<OneShotTourismPercentOthers>0</OneShotTourismPercentOthers>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
+			<PrereqResources>0</PrereqResources>
+			<Mechanized>1</Mechanized>
+			<Suicide>0</Suicide>
+			<CaptureWhileEmbarked>0</CaptureWhileEmbarked>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<HurryCostModifier>20</HurryCostModifier>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<AirInterceptRange>0</AirInterceptRange>
+			<AirUnitCap>0</AirUnitCap>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<WorkRate>0</WorkRate>
+			<NumFreeTechs>0</NumFreeTechs>
+			<BaseBeakersTurnsToCount>0</BaseBeakersTurnsToCount>
+			<BaseCultureTurnsToCount>0</BaseCultureTurnsToCount>
+			<RushBuilding>0</RushBuilding>
+			<BaseHurry>0</BaseHurry>
+			<HurryMultiplier>0</HurryMultiplier>
+			<BaseGold>0</BaseGold>
+			<NumGoldPerEra>0</NumGoldPerEra>
+			<SpreadReligion>0</SpreadReligion>
+			<RemoveHeresy>0</RemoveHeresy>
+			<ReligionSpreads>0</ReligionSpreads>
+			<ReligiousStrength>0</ReligiousStrength>
+			<FoundReligion>0</FoundReligion>
+			<RequiresEnhancedReligion>0</RequiresEnhancedReligion>
+			<ProhibitsSpread>0</ProhibitsSpread>
+			<CanBuyCityState>0</CanBuyCityState>
+			<CombatLimit>100</CombatLimit>
+			<RangeAttackOnlyInDomain>0</RangeAttackOnlyInDomain>
+			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
+			<Trade>0</Trade>
+			<NumExoticGoods>0</NumExoticGoods>
+			<PolicyType></PolicyType>
+			<RangedCombatLimit>0</RangedCombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo></SpecialCargo>
+			<DomainCargo></DomainCargo>
+			<Conscription>0</Conscription>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+			<NoMaintenance>0</NoMaintenance>
+			<Unhappiness>0</Unhappiness>
+			<UnitArtInfo>ART_DEF_UNIT_XP_ARUBEAN_CORSAIRE</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>0</UnitArtInfoCulturalVariation>
+			<UnitArtInfoEraVariation>0</UnitArtInfoEraVariation>
+			<ProjectPrereq></ProjectPrereq>
+			<SpaceshipProject></SpaceshipProject>
+			<LeaderPromotion></LeaderPromotion>
+			<LeaderExperience>0</LeaderExperience>
+			<DontShowYields>0</DontShowYields>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<!-- Unit_Buildings -->
+	<!-- Unit_BuildingClassRequireds -->
+	<!-- Unit_ProductionModifierBuildings -->
+	<!-- Unit_Builds -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<PromotionType>PROMOTION_COASTAL_RAIDER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<PromotionType>PROMOTION_PRIZE_SHIPS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<!-- Unit_GreatPersons -->
+	<!-- Unit_ResourceQuantityRequirements -->
+	<!-- Unit_UniqueNames -->
+	<!-- Unit_YieldFromKills -->
+	<!-- Unit_NotAITypes -->
+	<!-- Unit_ProductionTraits -->
+	<!-- Unit_TechTypes -->
+	<!-- UnitPromotions_CivilianUnitType -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_ARUBEAN_CORSAIRE</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_FRIGATE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ARUBEAN_CORSAIRE">
+			<Text>Arubean Corsaire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARUBEAN_CORSAIRE_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARUBEAN_CORSAIRE_STRATEGY">
+			<Text>Naval Unit that attacks as a melee unit. Starts with the first Coastal Raider promotion allowing it to earn gold from attacking coastal cities. May capture any enemy naval units it defeats as prize ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARUBEAN_CORSAIRE">
+			<Text>replaces the Privateer, has more movement and gains more XP and gold when pillaging trade routes</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

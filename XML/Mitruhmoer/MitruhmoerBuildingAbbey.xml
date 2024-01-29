@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2023 4:17:57 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ABBEY</Type>
+			<Description>TXT_KEY_BUILDING_ABBEY_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ABBEY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ABBEY_STRATEGY</Strategy>
+			<Help></Help>
+			<ThemingBonusHelp></ThemingBonusHelp>
+			<Quote></Quote>
+			<GoldMaintenance>2</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<Cost>100</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HealRateChange>5</HealRateChange>
+			<Happiness>1</Happiness>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
+			<TechEnhancedTourism>2</TechEnhancedTourism>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<DisplayPosition>0</DisplayPosition>
+			<PortraitIndex>37</PortraitIndex>
+			<WonderSplashImage></WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<WonderSplashAudio></WonderSplashAudio>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<ArtInfoCulturalVariation>0</ArtInfoCulturalVariation>
+			<ArtInfoEraVariation>0</ArtInfoEraVariation>
+			<ArtInfoRandomVariation>0</ArtInfoRandomVariation>
+		</Row>
+	</Buildings>
+
+	<!-- Building_AreaYieldModifiers -->
+	<!-- Building_BuildingClassHappiness -->
+	<!-- Building_BuildingClassYieldChanges -->
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<!-- Building_FreeUnits -->
+	<!-- Building_DomainFreeExperiences -->
+	<!-- Building_DomainFreeExperiencePerGreatWork -->
+	<!-- Building_DomainProductionModifiers -->
+	<!-- Building_FreeSpecialistCounts -->
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<!-- Building_GlobalYieldModifiers -->
+	<!-- Building_HurryModifiers -->
+	<!-- Building_LocalResourceAnds -->
+	<!-- Building_LocalResourceOrs -->
+	<!-- Building_LockedBuildingClasses -->
+	<!-- Building_PrereqBuildingClasses -->
+	<!-- Building_ResourceQuantity -->
+	<!-- Building_ResourceQuantityRequirements -->
+	<!-- Building_ResourceYieldModifiers -->
+	<!-- Building_ResourceCultureChanges -->
+	<!-- Building_ResourceFaithChanges -->
+	<!-- Building_RiverPlotYieldChanges -->
+	<!-- Building_SeaPlotYieldChanges -->
+	<!-- Building_LakePlotYieldChanges -->
+	<!-- Building_SeaResourceYieldChanges -->
+	<!-- Building_ResourceYieldChanges -->
+	<!-- Building_FeatureYieldChanges -->
+	<!-- Building_TerrainYieldChanges -->
+	<!-- Building_SpecialistYieldChanges -->
+	<!-- Building_UnitCombatFreeExperiences -->
+	<!-- Building_UnitCombatProductionModifiers -->
+	<!-- Building_TechAndPrereqs -->
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<!-- Building_YieldChangesPerPop -->
+	<!-- Building_YieldChangesPerReligion -->
+	<!-- Building_TechEnhancedYieldChanges -->
+	<!-- Building_YieldModifiers -->
+	<!-- Building_ThemingBonuses -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ABBEY">
+			<Text>Abbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ABBEY_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ABBEY_STRATEGY">
+			<Text>The Abbey is the Mudruvese unique building, replacing the Temple. It grants +2 [ICON_PEACE] Faith as well as +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_FOOD] Food. The Abbey provides an additional +1 [ICON_PEACE] Faith if the city was founded next to a river, plus a further +1 [ICON_PEACE] Faith for each mountain within the city's borders. Units garrisoned in the city also gain an additional +5 HP per turn. After Flight is researched, the Abbey grants +2 [ICON_TOURISM] Tourism as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ABBEY_HELP">
+			<Text>Mitruhmoer's unique building replacing the Temple, the Abbey rewards settling next to rivers with mountains in the vicinity with [ICON_PEACE] Faith. It also heals units faster and slightly increases [ICON_HAPPINESS_1] Happiness and [ICON_FOOD] Food. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

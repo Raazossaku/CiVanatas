@@ -57,13 +57,13 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_DEMANDTRIBUTE_ANGRY">
-			<Text>.</Text>
+			<Text>Your deviance has angered the heavens. Pay your dues now, or we can no longer shield you from divine retribution!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_DEMANDTRIBUTE_HAPPY">
-			<Text>My friend, Greece has need of your assistance. I beg you not to disappoint us!</Text>
+			<Text>The gods, in their benevolence, smile at the idea of a token of goodwill for our two great nations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_DEMANDTRIBUTE_NEUTRAL">
-			<Text>It is a small sacrifice to establish good will</Text>
+			<Text>A modest tribute is requested to maintain the delicate balance of our relations. Our fates are intertwined, after all.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_DISAGREE_SHORT_1">
 			<Text>I must refuse.</Text>
@@ -90,13 +90,13 @@
 			<Text>Sorry, I must have misheard you.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_FIRSTGREETING_1">
-			<Text>I, Alexander, heir to Heracles and Zeus, do greet you. May you prove to be a steadfast ally or worthy adversary!</Text>
+			<Text>Greetings, stranger. I am the Emperor Hmindun, hegemon and uniter of Mitruhmoer. May future generations study our meeting in the annals of history.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_FIRSTGREETING_2">
-			<Text>Greetings and well-met! I am Alexander, the son of kings and the grandson of gods! Can you say the same?</Text>
+			<Text>You stand before the Emperor Hmindun, inheritor of Holy Mother Shidrang's legacy. May divine wisdom guide you as it has guided my dominion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_FIRSTGREETING_3">
-			<Text>Welcome, stranger! I am Alexander, ruler of these lands. I seek strong friends or enemies worthy of my blade. Which are you, I wonder?</Text>
+			<Text>Hail, traveler. I am Hmindun, Emperor of Mitruhmoer. Heaven and earth align in our presence. Speak resolutely, for the gods bear witness.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_GOODBYE_1">
 			<Text>Farewell.</Text>
@@ -159,22 +159,22 @@
 			<Text>Go on.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_LOSEWAR_1">
-			<Text>I congratulate you on your temporary victory.</Text>
+			<Text>Our setback is not due to divine displeasure but the shortcomings of those who failed to execute my strategies. Heads will roll for this disgrace.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_LOSEWAR_2">
-			<Text>I must congratulate you on your remarkable victory. You have taught even the mighty Greeks a lesson in valor!</Text>
+			<Text>Our defeat is a bitter pill to swallow, but the heavens still watch. This will not be forgotten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_QUOTE_1">
-			<Text>Is it not worthy of tears that, when the number of worlds is infinite, we have not yet become lords of a single one?</Text>
+			<Text>The divine balance is delicate, easily disturbed by the careless. The duty of the ruler is to maintain the order bestowed by the gods.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_QUOTE_2">
-			<Text>Heaven cannot brook two suns, nor Earth two masters.</Text>
+			<Text>The heavens favor those who honor the past, navigate the present, and guide the future. Let rulers be the architects of earthly destiny.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_ANGRY_1">
-			<Text></Text>
+			<Text>Your proposal is pitiful. Improve your offer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_ANGRY_2">
-			<Text>That's not good enough.</Text>
+			<Text>Do not waste my time with your little jokes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_ANGRY_3">
 			<Text>You must do better than that.</Text>
@@ -183,16 +183,16 @@
 			<Text>Almost…</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_HAPPY_1">
-			<Text>Unfortunately I must inform you that . Can you improve your offer?</Text>
+			<Text>We appreciate your candor, but it falls somewhat short.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_HAPPY_2">
-			<Text>Is that the best you can do?</Text>
+			<Text>I hope this is not a sign of difficulties in your nation. Let us find a mutually beneficial arrangement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_HAPPY_3">
-			<Text>You're almost there…</Text>
+			<Text>Would you consider a more substantial offer?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_HAPPY_4">
-			<Text>Almost…</Text>
+			<Text>It is not quite enough, but please, one more offer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_NEUTRAL_1">
 			<Text>Your offer borders on the insulting. I suggest that you improve it or withdraw it.</Text>
@@ -201,22 +201,22 @@
 			<Text>Can you do a little better?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_NEUTRAL_3">
-			<Text>That's not quite good enough.</Text>
+			<Text>It is close but not enough.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NEEDMORE_NEUTRAL_4">
-			<Text>Almost…</Text>
+			<Text>That's not good enough.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NO_ANGRY">
-			<Text>Your offer is outrageous. It is an insult to me - and to Greece.</Text>
+			<Text>Did you come to my court merely to insult me? Fools play foolish games.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NO_HAPPY">
-			<Text>Thank you, but no.</Text>
+			<Text>Unfortunately we must decline your kind offer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_NO_NEUTRAL">
-			<Text>I am not interested.</Text>
+			<Text>It is unsuitable for Mitruhmoer. Perhaps another season.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_YES_ANGRY">
-			<Text>Agreed.</Text>
+			<Text>Then let it be so.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADE_YES_HAPPY">
 			<Text>Excellent. It is agreed.</Text>
@@ -225,28 +225,28 @@
 			<Text>Very well.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADEREQUEST_ANGRY">
-			<Text>Here is my offer. Decline it at your peril.</Text>
+			<Text>Consider this offer a display of my generosity and charity. Your acceptance is expected.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADEREQUEST_HAPPY">
-			<Text>My friend, does this seem reasonable to you?</Text>
+			<Text>In recognition of our good relations, I extend this trade offer. May it bring prosperity to us both.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRADEREQUEST_NEUTRAL">
-			<Text>I believe that this would be to both of our benefits.</Text>
+			<Text>I extend to you this trade offer from the nation of Mitruhmoer. Let us mutually benefit in this exchange.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_NO_ANGRY">
-			<Text>You maggot! Have you forgotten that you are speaking to a king and the heir to gods?</Text>
+			<Text>Pathetic toad! We do not yield to such demands. Expect no tribute!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_NO_HAPPY">
-			<Text>Despite my great love for you, I must decline.</Text>
+			<Text>Woefully I must decline. May we both prosper through other means.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_NO_NEUTRAL">
-			<Text>Ha, ha, ha! You must be joking!</Text>
+			<Text>I must decline. Let our dealings be fair and just.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_YES_ANGRY">
-			<Text>Very well. It appears as if I have no choice. But some day you will pay for this.</Text>
+			<Text>It seems we can not refuse, but know that this does not imply submission.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_YES_HAPPY">
-			<Text>If your people need it, then let it be so! It is a small sacrifice for the camaraderie between our two nations.</Text>
+			<Text>If your people have such need for this, then they shall have it! A small sacrifice to strengthen the bond between us.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HMINDUN_TRIBUTE_YES_NEUTRAL">
 			<Text>Very well. Enjoy it while you are able.</Text>

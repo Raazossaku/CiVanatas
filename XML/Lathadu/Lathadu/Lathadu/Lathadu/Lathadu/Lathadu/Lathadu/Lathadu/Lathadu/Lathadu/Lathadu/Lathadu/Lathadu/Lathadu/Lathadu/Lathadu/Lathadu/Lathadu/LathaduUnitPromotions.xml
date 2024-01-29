@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SPIRIT_OF_AARNIEU</Type>
+			<Description>TXT_KEY_PROMOTION_SPIRIT_OF_AARNIEU</Description>
+			<Help>TXT_KEY_PROMOTION_SPIRIT_OF_AARNIEU_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SPIRIT_OF_AARNIEU</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_1</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_1</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_1_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>5</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_1</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_2</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_2</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>10</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_2</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_3</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_3</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>15</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_3</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_4</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_4</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_4_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>20</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_4</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_5</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_5</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_5_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>25</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_5</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_6</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_6</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_6_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>30</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_6</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SHIELD_OF_THE_WORKER_7</Type>
+			<Description>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_7</Description>
+			<Help>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_7_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CombatPercent>35</CombatPercent>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_7</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_SPIRIT_OF_AARNIEU</PromotionType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<DoubleMove>true</DoubleMove>
+			<Defense>15</Defense>
+		</Row>
+	</UnitPromotions_Features>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER">
+			<Text>Shield of the Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_HELP">
+			<Text>Units with this promotion gain [ICON_STRENGTH] strength for every civilian unit adjacent to it at the start of each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_1">
+			<Text>Shield of the Worker I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_1_HELP">
+			<Text>+5% [ICON_STRENGTH] strength bonus from being adjacent to 1 civilian unit at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_2">
+			<Text>Shield of the Worker II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_2_HELP">
+			<Text>+10% [ICON_STRENGTH] strength bonus from being adjacent to 2 civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_3">
+			<Text>Shield of the Worker III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_3_HELP">
+			<Text>+15% [ICON_STRENGTH] strength bonus from being adjacent to 3 civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_4">
+			<Text>Shield of the Worker IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_4_HELP">
+			<Text>+20% [ICON_STRENGTH] strength bonus from being adjacent to 4 civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_5">
+			<Text>Shield of the Worker V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_5_HELP">
+			<Text>+25% [ICON_STRENGTH] strength bonus from being adjacent to 5 civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_6">
+			<Text>Shield of the Worker VI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_6_HELP">
+			<Text>+30% [ICON_STRENGTH] strength bonus from being adjacent to 6 civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_7">
+			<Text>Shield of the Worker VII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHIELD_OF_THE_WORKER_7_HELP">
+			<Text>+35% [ICON_STRENGTH] strength bonus from being adjacent to 7 or more civilian units at the start of the turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIRIT_OF_AARNIEU">
+			<Text>Spirit of Aarnieu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPIRIT_OF_AARNIEU_HELP">
+			<Text>Units with this promotion receive double movement and +15% defense in marshes.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
