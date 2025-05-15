@@ -21,7 +21,7 @@ VALUES
 --		DoFWillingness,			Loyalty,				Neediness, 				Forgiveness,		 						
 		6, 						7,						7, 						6,			 				
 --		Chattiness,				Meanness, 				IconAtlas, 				PortraitIndex
-		3, 						3, 						2,						'LEADER_ATLAS');
+		3, 						3, 						12,						'LEADER_ATLAS');
 
 INSERT INTO Leader_MajorCivApproachBiases 
 		(LeaderType, 		MajorCivApproachType, 				Bias)

@@ -39,17 +39,10 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
   <References />
   <Blocks />
   <Files>
-    <File md5="36ECD1E413C844A34D7A632EF2419BCD" import="1">Art/Lathadu/LathaduAlpha128.dds</File>
-    <File md5="D6CD2CBD93CFBE9C430B85800A8BF10A" import="1">Art/Lathadu/LathaduAlpha16.dds</File>
-    <File md5="404B99D11D27E8002E7493897E13BF12" import="1">Art/Lathadu/LathaduAlpha214.dds</File>
-    <File md5="A60C679BFE8B0546F6CF1F61A072C671" import="1">Art/Lathadu/LathaduAlpha22.dds</File>
     <File md5="F5D74412ECC6393C68FABB4CB9CA7A19" import="1">Art/Lathadu/LathaduAlpha24.dds</File>
-    <File md5="09A947245243B32576FC08B1FF425F73" import="1">Art/Lathadu/LathaduAlpha256.dds</File>
     <File md5="D4D1E0A8317D04D65FFFA8D7E7713BAC" import="1">Art/Lathadu/LathaduAlpha32.dds</File>
-    <File md5="820A47C419025B813897A030B2E36296" import="1">Art/Lathadu/LathaduAlpha45.dds</File>
     <File md5="1C36912D702CDA691E90B9462747DAFD" import="1">Art/Lathadu/LathaduAlpha48.dds</File>
     <File md5="B6C358AB90A3EDEAD9B7EFB14032E400" import="1">Art/Lathadu/LathaduAlpha64.dds</File>
-    <File md5="A0ACC4742E2AB1D376A67899FE5F26A3" import="1">Art/Lathadu/LathaduAlpha80.dds</File>
     <File md5="60491F0BA71212ED0F59660756F20347" import="1">Art/Lathadu/LathaduBuildingCooperative128.dds</File>
     <File md5="7F5C5EC17FD49617DF95617FBA2BA336" import="1">Art/Lathadu/LathaduBuildingCooperative256.dds</File>
     <File md5="5811F17D1D62A95237180D55631E6488" import="1">Art/Lathadu/LathaduBuildingCooperative45.dds</File>
@@ -65,48 +58,58 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="498DE18CD274C5C5995EE50D27EB6709" import="1">Art/Lathadu/LathaduUnitPartisan45.dds</File>
     <File md5="51840AC6DB695E09BE976CE3FBD5C4F8" import="1">Art/Lathadu/LathaduUnitPartisan64.dds</File>
     <File md5="27D465FC7D7893399003E30BC5890F55" import="1">Art/Lathadu/LathaduUnitPartisan80.dds</File>
-    <File md5="2D9A8A586957866C702A2DFB07F5F93A" import="1">Art/TarDinuu/TarDinuuAlpha128.dds</File>
-    <File md5="207C27B2A486773A385A29104CF785F5" import="1">Art/TarDinuu/TarDinuuAlpha16.dds</File>
-    <File md5="FD0A0681DEF174727DE46818212C3F5D" import="1">Art/TarDinuu/TarDinuuAlpha214.dds</File>
-    <File md5="9CCC05A8D54C031E4B79ED247E685492" import="1">Art/TarDinuu/TarDinuuAlpha22.dds</File>
     <File md5="161D858723A9609E0EDCB5477E071353" import="1">Art/TarDinuu/TarDinuuAlpha24.dds</File>
-    <File md5="24EB1C6FFA2D54D0C4CF56437906C66B" import="1">Art/TarDinuu/TarDinuuAlpha256.dds</File>
     <File md5="67193053D46630A10C668748532631E4" import="1">Art/TarDinuu/TarDinuuAlpha32.dds</File>
-    <File md5="94F67CEDD0FA504662B3D1AF76DC7CB0" import="1">Art/TarDinuu/TarDinuuAlpha45.dds</File>
     <File md5="8FD6740B21FFDDEED58A8C7245F1B949" import="1">Art/TarDinuu/TarDinuuAlpha48.dds</File>
     <File md5="BB3510CB8E8EA2B48DB20CB0372EF1BE" import="1">Art/TarDinuu/TarDinuuAlpha64.dds</File>
-    <File md5="E18882CC7418B7348D14D0B3B32C3ACF" import="1">Art/TarDinuu/TarDinuuAlpha80.dds</File>
     <File md5="498AE5A0C72CB0F29452273DD9EDBAD6" import="1">Art/TarDinuu/TarDinuuColor128.dds</File>
     <File md5="710B476B4802F24B2BBA1DED17088D3E" import="1">Art/TarDinuu/TarDinuuColor256.dds</File>
     <File md5="4BA46CF3D120FEA42AAB5E49C9781E11" import="1">Art/TarDinuu/TarDinuuColor32.dds</File>
     <File md5="4809033F4B4460F0B6B54EC39F51527E" import="1">Art/TarDinuu/TarDinuuColor45.dds</File>
     <File md5="85A1C29DF939E1EB2DD7C0045135C2D5" import="1">Art/TarDinuu/TarDinuuColor64.dds</File>
     <File md5="FFB6BC915622F518E488A47842C88649" import="1">Art/TarDinuu/TarDinuuColor80.dds</File>
+    <File md5="52ACF4BA91D5FF57365ED1805A1462AD" import="1">Art/Teleri/TeleriAlpha24.dds</File>
+    <File md5="B2CCB2E894ED3A65D9F4CCA998EDEE04" import="1">Art/Teleri/TeleriAlpha32.dds</File>
+    <File md5="EF8AB1174C55EAC7FDBCC4415D33C578" import="1">Art/Teleri/TeleriAlpha48.dds</File>
+    <File md5="B871A666AE745B0341CA496EB98E10B3" import="1">Art/Teleri/TeleriAlpha64.dds</File>
+    <File md5="7EC9848354405F5D442888CB980CC83F" import="1">Art/Teleri/TeleriColor128.dds</File>
+    <File md5="2C903A27B0243B29AE85AD37E6B31FD6" import="1">Art/Teleri/TeleriColor256.dds</File>
+    <File md5="916649566712F781F45A65D26AEFCB94" import="1">Art/Teleri/TeleriColor32.dds</File>
+    <File md5="9E454550256A9A552250108DE960FF7D" import="1">Art/Teleri/TeleriColor45.dds</File>
+    <File md5="3B3B0E0F71F8D725732D1E2CA1066DAF" import="1">Art/Teleri/TeleriColor64.dds</File>
+    <File md5="B5A34468F0A42205D9DFCBC30ACE0E55" import="1">Art/Teleri/TeleriColor80.dds</File>
     <File md5="8229FBA7BFE68558F6B5566A057CB7FD" import="1">Lua/AssignStartingPlots.lua</File>
     <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
-    <File md5="B594434A8572FBC7FC93C93A651E523A" import="0">Lua/VanatasCivCode.lua</File>
-    <File md5="68A0B63B6FE631233FC9C484D8DFAD77" import="0">Sound/AmericaAudio2DScripts.xml</File>
-    <File md5="1AC7A38E6421C9017244DAE2B255AC71" import="0">Sound/AztecAudio2DScripts.xml</File>
-    <File md5="7157A2A98E8ED3CCC1F1153E415790EA" import="0">Sound/ChinaAudio2DScripts.xml</File>
-    <File md5="062C4CD89CCADD184DB44E88AB22C517" import="0">Sound/HaradAudio2DScripts.xml</File>
-    <File md5="382AE65301D9081591A801D10398CE62" import="0">SQL/VanatasIconTextureAtlases.sql</File>
-    <File md5="F6CE620D7C466876E777F2D1F1304754" import="0">SQL/VanatasOnly.sql</File>
+    <File md5="803F9C2D19518088069F34A26DF97A27" import="0">Lua/VanatasCivCode.lua</File>
+    <File md5="E54F27B0B3CFECD4F2D848B4A05D195F" import="0">Sound/ChinaAudio2DScripts.xml</File>
+    <File md5="96EFB2996DC8405550F1B3436EB53BDF" import="0">Sound/HaradAudio2DScripts.xml</File>
+    <File md5="A6AD88170140F2C5157C6B89D631848B" import="0">SQL/VanatasIconTextureAtlases.sql</File>
+    <File md5="29A2FE0CB5C82F5BDFBD2E32D22573CA" import="0">SQL/VanatasOnly.sql</File>
     <File md5="8964560B241D3C8616EFD2E930467CA6" import="0">XML/General/VanatasRegions.xml</File>
-    <File md5="11BBCA1D6C77AEFE4600D9A8541E0F7F" import="0">XML/Lathadu/LathaduAudio2DScripts.xml</File>
-    <File md5="B20D217FE1DACC2ED4193A4F8946A947" import="0">XML/Lathadu/LathaduBuildingCooperative.xml</File>
-    <File md5="EB5F04F39F57D641A867122C0C259B42" import="0">XML/Lathadu/LathaduCivilization.sql</File>
-    <File md5="000761BE626B1931390FBE2BEDB9F548" import="0">XML/Lathadu/LathaduLeaderCarmac.sql</File>
+    <File md5="AE46CCE415FCBE5B489A3CAAB7263939" import="0">XML/Lathadu/LathaduAudio2DScripts.xml</File>
+    <File md5="2B147EDC38C9334533467EF3468E2C05" import="0">XML/Lathadu/LathaduBuildingCooperative.xml</File>
+    <File md5="206E6059F3F9880B3BA463580A48A5DC" import="0">XML/Lathadu/LathaduCivilization.sql</File>
+    <File md5="42D7B4F8F03827765F6967DE2152983F" import="0">XML/Lathadu/LathaduLeaderCarmac.sql</File>
     <File md5="28A9B468D9A7551BC13FE3D22B803950" import="0">XML/Lathadu/LathaduTraitFieldsOfVirtue.xml</File>
     <File md5="E462E5F3C89D75206476610340B5FA25" import="0">XML/Lathadu/LathaduUnitPromotions.xml</File>
     <File md5="EEE8FA51F714324BE4425884BEC94039" import="0">XML/Lathadu/LathaduUnitPartisan.xml</File>
-    <File md5="1C47EB86F1C469BE1E3B7FC5CB98EE28" import="0">XML/Mitruhmoer/MitruhmoerHmindunDialog.xml</File>
-    <File md5="3F6253C70ECAA29694CC1D99508B8809" import="0">XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</File>
-    <File md5="E7F95375EDD0DE2251F8FA2C179B9D16" import="0">XML/Tar-Dinuu/TarDinuuCivilization.sql</File>
+    <File md5="3C680DC2E4E3D6CD46D986EE4C321831" import="0">XML/Mitruhmoer/MitruhmoerBuildingAbbey.xml</File>
+    <File md5="83772235DE3800FC539277D5FF206E51" import="0">XML/Mitruhmoer/MitruhmoerHmindunDialog.xml</File>
+    <File md5="83B4A78BB7EE375724B7F5D0FB984275" import="0">XML/Ochsardvia/OchsardviaCivilization.sql</File>
+    <File md5="FB030DAE7103F98E1BBE1727D14713B0" import="0">XML/Ochsardvia/OchsardviaLeaderDownada.sql</File>
+    <File md5="E1B6612FB0724E93DFB93839C65EF23E" import="0">XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</File>
+    <File md5="131EF303B51F2B89BF9B6974510F992F" import="0">XML/Tar-Dinuu/TarDinuuCivilization.sql</File>
     <File md5="C8A9E3576BB24F3867BB68E23203510F" import="0">XML/Tar-Dinuu/TarDinuuLeaderFlirI.sql</File>
-    <File md5="24AC200C5F0CA1566AE82EA119AFBD2E" import="0">XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</File>
+    <File md5="F9A939CC8684B1133C096D4B177A68D4" import="0">XML/Tar-Dinuu/TarDinuuUnitPromotions.xml</File>
     <File md5="ECF248B5D988E54D58F23C2DE2166B81" import="0">XML/Tar-Dinuu/TarDinuuTraitPanTiridinianCulture.xml</File>
     <File md5="959DE21A82EDD5C8F24FA9420689ABB1" import="0">XML/Tar-Dinuu/TarDinuuImprovementRuuhama.xml</File>
-    <File md5="789D6FCA1E5B2E99A0530234DACF5F10" import="0">XML/Tar-Dinuu/TarDinuuUnitSpiderThrower.xml</File>
+    <File md5="D2666E1F9BCD83E579AB7B5769A3F6AC" import="0">XML/Tar-Dinuu/TarDinuuUnitSpiderThrower.xml</File>
+    <File md5="3C7D2BF53D985983C2F3C0723C2710A1" import="0">XML/Teleri/TeleriTraitWealthOfTheLaigoksede.xml</File>
+    <File md5="E5C1B2F1E839C09ABC304E5BEC0E8CDF" import="0">XML/Teleri/TeleriAudio2DScripts.xml</File>
+    <File md5="A8C631D53A4B2AC2F52FB5B81F9EB438" import="0">XML/Teleri/TeleriBuildingMerchantPort.xml</File>
+    <File md5="D41648E3D285E415B7997A0E04CA2117" import="0">XML/Teleri/TeleriCivilization.sql</File>
+    <File md5="38B72E4C6F2C6BC071BEC5AF79262010" import="0">XML/Teleri/TeleriLeaderHialeah.sql</File>
+    <File md5="14726B65F871658B21DF582072FC28BF" import="0">XML/Teleri/TeleriUnitArubeanCorsaire.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -127,6 +130,12 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
       <UpdateDatabase>XML/Tar-Dinuu/TarDinuuLeaderFlirI.sql</UpdateDatabase>
       <UpdateDatabase>XML/Tar-Dinuu/TarDinuuCivilization.sql</UpdateDatabase>
       <UpdateDatabase>XML/Tar-Dinuu/TarDinuuAudio2DScripts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriBuildingMerchantPort.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriUnitArubeanCorsaire.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriCivilization.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriTraitWealthOfTheLaigoksede.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriLeaderHialeah.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Teleri/TeleriAudio2DScripts.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

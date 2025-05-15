@@ -188,10 +188,10 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ARUBEAN_CORSAIRE_STRATEGY">
-			<Text>Naval Unit that attacks as a melee unit. Starts with the first Coastal Raider promotion allowing it to earn gold from attacking coastal cities. May capture any enemy naval units it defeats as prize ships.</Text>
+			<Text>Replacing the Privateer, this Teleri unique unit has an additional +1 movement. When it plunders a trade route, it receives +15 XP and the trade gold of the defeated Cargo Ship.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ARUBEAN_CORSAIRE">
-			<Text>replaces the Privateer, has more movement and gains more XP and gold when pillaging trade routes</Text>
+			<Text>This Naval Unit unique to the Teleri replaces the Privateer, with an additional +1 movement and gains extra XP and gold when plundering trade routes</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

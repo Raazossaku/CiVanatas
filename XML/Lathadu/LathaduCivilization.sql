@@ -13,7 +13,7 @@ VALUES (
 		'CIVILIZATION_LATHADU',							'TXT_KEY_CIV_LATHADU_DESC',		
 --		CivilopediaTag,									Playable,		AIPlayable,
 		'TXT_KEY_CIV5_LATHADU',							1,				1, 
---	`	ShortDescription,								Adjective,
+--	 	ShortDescription,								Adjective,
 		'TXT_KEY_CIV_LATHADU_SHORT_DESC',				'TXT_KEY_CIV_LATHADU_ADJECTIVE',
 --		DefaultPlayerColor,								ArtDefineTag,
 		'PLAYERCOLOR_LATHADU',							'ART_DEF_CIVILIZATION_ENGLAND',

@@ -111,10 +111,10 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MERCHANT_PORT_STRATEGY">
-			<Text>The Cooperative is the Lathadun unique building, replacing the Factory. It grants +4 [ICON_PRODUCTION] Production but instead of providing 10% [ICON_PRODUCTION] Production, it converts that amount randomly into [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_FOOD] Food, or [ICON_PEACE] Faith. Only 2 are required to choose an Ideology. 1 [ICON_RES_COAL] Coal is consumed when a Cooperative is created.</Text>
+			<Text>The Merchant Port is the Teleri unique building, replacing the Harbor. It grants +15% [ICON_PRODUCTION] Production to any city where a Cargo Ship is under construction. Each Merchant Port also adds an additional trade route, so if you settle more cities, you can build more Merchant Ports, and then you can establish more trade routes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MERCHANT_PORT_HELP">
-			<Text>replaces the Harbor, +1 trade route, +15% production when building a cargo ship</Text>
+			<Text>A Medieval-era building unique to the Teleri which replaces the Harbor, providing +1 trade route, and +15% [ICON_PRODUCTION] Production when building a Cargo Ship</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

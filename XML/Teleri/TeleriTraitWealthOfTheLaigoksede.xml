@@ -31,10 +31,10 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE">
-			<Text>A [ICON_CULTURE] Culture boost is granted after conquering a city based on its [ICON_CITIZEN] Population. After conquering a civ's [ICON_CAPITAL] Capital, there is a chance to gain a free [ICON_RESEARCH] Tech depending on far ahead that civ is on the Tech Tree.</Text>
+			<Text>Cities built next to rivers receive a starting bonus yield of +1 Food +3 Gold +3 Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_WEALTH_OF_THE_LAIGOKSEDE_SHORT">
-			<Text>Pan-Tiridinian Culture</Text>
+			<Text>Wealth of the Laigoksède</Text>
 		</Row>
 	</Language_en_US>
 	<Buildings>

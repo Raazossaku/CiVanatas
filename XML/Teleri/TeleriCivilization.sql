@@ -13,7 +13,7 @@ VALUES (
 		'CIVILIZATION_TELERI',							'TXT_KEY_CIV_TELERI_DESC',		
 --		CivilopediaTag,									Playable,		AIPlayable,
 		'TXT_KEY_CIV5_TELERI',							1,				1, 
---	`	ShortDescription,								Adjective,
+--	 	ShortDescription,								Adjective,
 		'TXT_KEY_CIV_TELERI_SHORT_DESC',				'TXT_KEY_CIV_TELERI_ADJECTIVE',
 --		DefaultPlayerColor,								ArtDefineTag,
 		'PLAYERCOLOR_TELERI',							'ART_DEF_CIVILIZATION_IROQUOIS',
@@ -45,7 +45,7 @@ VALUES
 	'Greetings great scholar Talah Hialeah. ' || 
 	'Through your treatises you have unified the pogititch, ' ||
 	'and brought the Teleri people together in this glorious republic. ' ||
-	'Rejuvenating the country, you paved the way for its mastery over the great Laigoks�de, ' ||
+	'Rejuvenating the country, you paved the way for its mastery over the great Laigoks&#232;de, ' ||
 	'and its continued prosperity. The people thank you for the strong institutions you helped mold, ' ||
 	'as they enjoy the wealth of trade and good governance. ' ||
 	'Student of history they have learned from you as you have learned from the past. ' ||
@@ -56,7 +56,7 @@ VALUES
 	'Partners, friends, and allies await, what will you do? ' ||
 	'Will you help them stand up to enemies and tyrants? ' ||
 	'Will you bring them out to sea once more? ' ||
-	'Will you bring them the wealth of the Laigoks�de? ' ||
+	'Will you bring them the wealth of the Laigoks&#232;de? ' ||
 	'Can you build a civilization that will stand the test of time?'
 	);
 
@@ -116,28 +116,27 @@ CREATE TABLE ToAdd_CityNames (
 
 INSERT INTO ToAdd_CityNames (CivilizationType, CityTag, CityText)
 VALUES
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_0', 'Lgaj�lsein'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_1', 'Edrin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_2', 'Odulanin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_3', 'Firin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_4', 'Muralilin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_5', 'Kimuruu'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_6', 'Gerhama'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_7', 'Kimurin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_8', 'Sakemad'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_9', 'Jahaunin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_10', 'Emedrin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_11', 'Malamin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_12', 'Eflin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_13', 'Druunhama'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_14', 'Fuadilin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_15', 'Hakemad'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_16', 'Ranin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_17', 'Nusridin'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_18', 'Jurhama'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_19', 'Tandurama'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_20', 'Harikemad'),
-	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_21', 'Kendin');
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_0', 'Lgajèlsein'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_1', 'Kwèinjo'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_2', 'Dzengudwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_3', 'Jernido'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_4', 'Liedigo'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_5', 'Kwasudwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_6', 'Rgènudwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_7', 'Èrwe'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_8', 'Kjounèdzi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_9', 'Ljedudwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_10', 'Altèjed'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_11', 'Odikrèko'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_12', 'Odislwe'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_13', 'Dzuiwe'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_14', 'Hnèjudwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_15', 'Odiwiga'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_16', 'Lidkwa'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_17', 'Keninej'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_18', 'Rgenlido'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_19', 'Altujdwi'),
+	('CIVILIZATION_TELERI', 'TXT_KEY_CITY_NAME_TELERI_20', 'Ailèingwat');
 
 INSERT INTO Civilization_CityNames (CivilizationType, CityName)
 SELECT CivilizationType, CityTag FROM ToAdd_CityNames;
@@ -156,16 +155,16 @@ CREATE TABLE ToAdd_SpyNames (
 
 INSERT INTO ToAdd_SpyNames (CivilizationType, SpyTag, SpyText, Gender)
 VALUES
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_0', 'Huidar', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_1', 'Karir', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_2', 'Gridan', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_3', 'Mudari', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_4', 'Lurar', 1),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_5', 'Didui', 1),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_6', 'Doluu', 1),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_7', 'Umadrar', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_8', 'Muradaran', 0),
-	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_9', 'Tenaril', 1);
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_0', 'Uwe Ègweg', 1),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_1', 'Liskwa Lèjet', 1),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_2', 'Nisga Ugnitch', 1),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_3', 'Ksèdi Dzienga', 0),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_4', 'Edèle Igasluhe', 0),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_5', 'Krègwa Tènat', 1),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_6', 'Kètch Kniun', 0),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_7', 'Glinek Ugatch', 1),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_8', 'Uslu Udwi', 0),
+	('CIVILIZATION_TELERI', 'TXT_KEY_SPY_NAME_TELERI_9', 'Eujet Osègo', 0);
 
 INSERT INTO Civilization_SpyNames (CivilizationType, SpyName)
 SELECT CivilizationType, SpyTag FROM ToAdd_SpyNames;

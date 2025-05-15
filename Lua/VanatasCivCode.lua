@@ -199,7 +199,7 @@ function Ability_ArubeanCorsaire(playerID, unitID)
     local pPlayer = Players[playerID];
 	if not pPlayer:IsAlive() then return; end
 	local pUnit = pPlayer:GetUnitByID(unitID)
-	if pUnit:GetUnitType() == pCargoShip then	
+	if pUnit:GetUnitType() == pCargoShip then
 		local pPlot = pUnit:GetPlot()
 		local pEnemyUnit = pPlot:GetUnit()
 		local pEnemyPlayer = Players[pEnemyUnit:GetOwner()]

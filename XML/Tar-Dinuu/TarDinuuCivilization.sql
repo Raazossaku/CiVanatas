@@ -13,7 +13,7 @@ VALUES (
 		'CIVILIZATION_TAR_DINUU',						'TXT_KEY_CIV_TAR_DINUU_DESC',		
 --		CivilopediaTag,									Playable,		AIPlayable,
 		'TXT_KEY_CIV5_TAR_DINUU',						1,				1, 
---	`	ShortDescription,								Adjective,
+--	 	ShortDescription,								Adjective,
 		'TXT_KEY_CIV_TAR_DINUU_SHORT_DESC',				'TXT_KEY_CIV_TAR_DINUU_ADJECTIVE',
 --		DefaultPlayerColor,								ArtDefineTag,
 		'PLAYERCOLOR_TAR_DINUU',						'ART_DEF_CIVILIZATION_AZTEC',
