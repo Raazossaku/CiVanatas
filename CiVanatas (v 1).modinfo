@@ -109,7 +109,7 @@ Timber, jph, TheCommander (Ideas and Feedback)</Description>
     <File md5="A8C631D53A4B2AC2F52FB5B81F9EB438" import="0">XML/Teleri/TeleriBuildingMerchantPort.xml</File>
     <File md5="D41648E3D285E415B7997A0E04CA2117" import="0">XML/Teleri/TeleriCivilization.sql</File>
     <File md5="38B72E4C6F2C6BC071BEC5AF79262010" import="0">XML/Teleri/TeleriLeaderHialeah.sql</File>
-    <File md5="14726B65F871658B21DF582072FC28BF" import="0">XML/Teleri/TeleriUnitArubeanCorsaire.xml</File>
+    <File md5="83093AC2C9131CAAED23394AEED8183C" import="0">XML/Teleri/TeleriUnitArubeanCorsaire.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

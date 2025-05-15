@@ -86,7 +86,7 @@
 			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
 			<NoMaintenance>0</NoMaintenance>
 			<Unhappiness>0</Unhappiness>
-			<UnitArtInfo>ART_DEF_UNIT_XP_ARUBEAN_CORSAIRE</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_U_BYZANTIUM_DROMON</UnitArtInfo>
 			<UnitArtInfoCulturalVariation>0</UnitArtInfoCulturalVariation>
 			<UnitArtInfoEraVariation>0</UnitArtInfoEraVariation>
 			<ProjectPrereq></ProjectPrereq>
@@ -96,8 +96,8 @@
 			<DontShowYields>0</DontShowYields>
 			<ShowInPedia>1</ShowInPedia>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<UnitFlagIconOffset>21</UnitFlagIconOffset>
-			<PortraitIndex>21</PortraitIndex>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 		</Row>
